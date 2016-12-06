@@ -9,7 +9,19 @@ The smartcab operates in an ideal, grid-like city (similar to New York City), wi
 
 Violating a traffic rule or colliding with another car causes the agent to be penalized. Reaching the destination gives a reward.
 
+
+### Run
+
+In a terminal or command window, navigate to the top-level project directory `smartcab/` (that contains this README) and run one of the following commands:
+
+```python smartcab/agent.py```  
+```python -m smartcab.agent```
+
+This will run the `agent.py` file and execute your agent code.
+
+
 **IMPORTANT VARIABLES:**
+
 On a big picture level, the important things to know are: our location, where we want to go, and obstacles.
 This could be defined as the following features
 
